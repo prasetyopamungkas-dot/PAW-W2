@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Personal Web - Prasetyo Tri Pamungkas</title>
+
+    <link rel="icon" href="images.jpg">
+
+    <style>
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+
+            background:
+                linear-gradient(
+                    135deg,
+                    #e8f1ed,
+                    #f4f8f6
+                );
+
+            color: #24332f;
+        }
+
+       
+
+        header {
+            height: 70px;
+
+            background:
+                linear-gradient(
+                    90deg,
+                    #123c32,
+                    #1f6f5b
+                );
+
+            color: white;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            box-shadow: 0 4px 15px rgba(18,60,50,0.18);
+        }
+
+        header h1 {
+            margin: 0;
+
+            font-size: 23px;
+
+            letter-spacing: 1px;
+        }
+
+   
+
+        .container {
+            width: 90%;
+            max-width: 850px;
+
+            margin: 45px auto;
+
+            background: white;
+
+            padding: 40px;
+
+            border-radius: 25px;
+
+            box-shadow:
+                0 15px 40px rgba(18,60,50,0.12);
+        }
+
+       
+
+        .profile {
+            text-align: center;
+        }
+
+        .profile img {
+            width: 170px;
+            height: 170px;
+
+            object-fit: cover;
+
+            border-radius: 50%;
+
+            border: 6px solid #1f6f5b;
+
+            box-shadow:
+                0 10px 25px rgba(18,60,50,0.18);
+
+            transition: 0.3s;
+        }
+
+        .profile img:hover {
+            transform: scale(1.05);
+        }
+
+     
+
+        .identity {
+            text-align: center;
+
+            margin-top: 25px;
+        }
+
+        .identity h2 {
+            margin-bottom: 8px;
+
+            font-size: 28px;
+
+            color: #123c32;
+        }
+
+        .identity p {
+            margin: 5px;
+
+            color: #66736f;
+
+            font-size: 15px;
+        }
+
+        .nim {
+            font-weight: bold;
+
+            color: #1f6f5b !important;
+        }
+
+     
+        .social-title {
+            text-align: center;
+
+            margin-top: 35px;
+
+            margin-bottom: 15px;
+
+            color: #123c32;
+        }
+
+        .social-media {
+            display: flex;
+
+            justify-content: center;
+
+            gap: 18px;
+        }
+
+        .social-media a {
+            width: 58px;
+            height: 58px;
+
+            display: flex;
+
+            justify-content: center;
+            align-items: center;
+
+            border-radius: 15px;
+
+            background: #f0f6f3;
+
+            border: 2px solid #d4e4de;
+
+            transition: 0.3s;
+
+            text-decoration: none;
+        }
+
+        .social-media a:hover {
+            transform: translateY(-6px);
+
+            background: #1f6f5b;
+
+            border-color: #1f6f5b;
+
+            box-shadow:
+                0 8px 20px rgba(31,111,91,0.25);
+        }
+
+        .social-media img {
+            width: 32px;
+            height: 32px;
+
+            object-fit: contain;
+        }
+
+  
+
+        .description {
+            text-align: center;
+
+            max-width: 650px;
+
+            margin: 25px auto 35px;
+
+            color: #66736f;
+
+            font-size: 14px;
+
+            line-height: 1.8;
+        }
+
+     
+        .datetime {
+            text-align: center;
+
+            margin-top: 30px;
+
+            padding: 12px;
+
+            background: #f0f6f3;
+
+            border-radius: 10px;
+
+            color: #1f6f5b;
+
+            font-size: 13px;
+        }
+
+  
+
+        footer {
+            text-align: center;
+
+            padding: 25px;
+
+            background: #123c32;
+
+            color: white;
+
+            font-size: 13px;
+        }
+
+     
+        @media (max-width: 600px) {
+
+            .container {
+                padding: 25px 18px;
+            }
+
+            header h1 {
+                font-size: 18px;
+            }
+
+            .profile img {
+                width: 135px;
+                height: 135px;
+            }
+
+            .identity h2 {
+                font-size: 23px;
+            }
+
+            .identity p {
+                font-size: 13px;
+            }
+
+            .social-media a {
+                width: 52px;
+                height: 52px;
+            }
+
+            .social-media img {
+                width: 28px;
+                height: 28px;
+            }
+
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+
+
+    <header>
+
+        <h1>
+            A Personal Web Page
+        </h1>
+
+    </header>
+
+
+ 
+
+    <div class="container">
+
+
+ 
+
+        <div class="profile">
+
+            <img
+                src="818391685_1510483054456881_1224521793231197610_n_.jpg"
+                alt="Foto Prasetyo Tri Pamungkas"
+            >
+
+        </div>
+
+
+     
+
+        <div class="identity">
+
+            <h2>
+                Prasetyo Tri Pamungkas
+            </h2>
+
+            <p class="nim">
+                NIM: 102042500011
+            </p>
+
+            <p>
+                Fakultas Rekayasa Industri
+            </p>
+
+            <p>
+                Program Studi Sistem Informasi
+            </p>
+
+        </div>
+
+
+    
+
+        <h3 class="social-title">
+            Social Media
+        </h3>
+
+
+        <div class="social-media">
+
+
+        
+            <a
+                href="https://x.com/"
+                target="_blank"
+                title="X"
+            >
+
+                <img
+                    src="images (1).jpg"
+                    alt="X"
+                >
+
+            </a>
+
+
+       
+
+            <a
+                href="https://github.com/"
+                target="_blank"
+                title="GitHub"
+            >
+
+                <img
+                    src="images.jpg"
+                    alt="GitHub"
+                >
+
+            </a>
+
+
+         
+
+            <a
+                href="https://www.instagram.com/prize.rass/"
+                target="_blank"
+                title="Instagram"
+            >
+
+                <img
+                    src="8f94c616ec0a60bafb4de4e0260719da.jpg"
+                    alt="Instagram"
+                >
+
+            </a>
+
+
+        </div>
+
+
+     
+
+        <div class="description">
+
+            <p>
+                apa yaaa...wkwk
+            </p>
+
+        </div>
+
+
+   
+
+        <div class="datetime">
+
+            📅 <span id="tanggal"></span>
+
+            &nbsp;&nbsp; | &nbsp;&nbsp;
+
+            🕐 <span id="jam"></span>
+
+        </div>
+
+
+    </div>
+
+
+  
+    <footer>
+
+        © 2026 Prasetyo Tri Pamungkas
+
+    </footer>
+
+
+  
+
+    <script>
+
+        function updateDateTime() {
+
+            let sekarang = new Date();
+
+
+            let tanggal =
+                sekarang.toLocaleDateString(
+                    "id-ID",
+                    {
+                        weekday: "long",
+                        year: "numeric",
+                        month: "long",
+                        day: "numeric"
+                    }
+                );
+
+
+            let jam =
+                sekarang.toLocaleTimeString(
+                    "id-ID"
+                );
+
+
+            document.getElementById(
+                "tanggal"
+            ).innerHTML = tanggal;
+
+
+            document.getElementById(
+                "jam"
+            ).innerHTML = jam;
+
+        }
+
+
+        updateDateTime();
+
+
+        setInterval(
+            updateDateTime,
+            1000
+        );
+
+    </script>
+
+
+</body>
+
+</html>
